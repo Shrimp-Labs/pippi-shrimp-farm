@@ -1,0 +1,17 @@
+/node_modules/
+/build/
+/migrations/
+
+node_modules
+
+#Buidler files
+cache
+artifacts
+coverage
+coverage.json
+yarn-error.log
+yarn.lock
+
+# Compile files
+truffle-config.js
+out.sol
