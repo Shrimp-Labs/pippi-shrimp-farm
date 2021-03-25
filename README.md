@@ -12,7 +12,7 @@ https://pipishrimp.finance. Feel free to read the code. More details coming soon
 - (Uni|Pipi)swapV2Router02 -  0xBe4AB2603140F134869cb32aB4BC56d762Ae900B
 - (Uni|Pipi)swapV2Pair init code hash - `0xd805d4c8a7fb3567167020352386905de5d4bd188fe2284675e3ed584653df75`
 - MultiCall -  0x8dd2f8105Dbaf80821fC5085EBa50Ca7927C6bdf
-- IDO -  https://hecoinfo.com/address/0x375c87B01702fd09DE3f0f807217E950f5637D6C
+- IDO -  https://hecoinfo.com/address/0xa88d95FCC2477dfc37F752359ff832D4fF6a769A
 
 ### HECO MAINNET
 
