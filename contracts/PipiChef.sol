@@ -1,14 +1,11 @@
 pragma solidity 0.6.12;
 
-import './libs/math/SafeMath.sol';
-import './libs/token/HRC20/IHRC20.sol';
-import './libs/token/HRC20/SafeHRC20.sol';
-import './libs/access/Ownable.sol';
+import "./libs/math/SafeMath.sol";
+import "./libs/token/HRC20/IHRC20.sol";
+import "./libs/token/HRC20/SafeHRC20.sol";
+import "./libs/access/Ownable.sol";
 
-// import "@nomiclabs/buidler/console.sol";
-
-
-contract PipiChef is Ownable {
+contract xPipiChef is Ownable {
     using SafeMath for uint256;
     using SafeHRC20 for IHRC20;
 
@@ -132,7 +129,7 @@ contract PipiChef is Ownable {
     }
 
 
-    // Stake SYRUP tokens to SmartChef
+    // Stake xPIPI tokens to xPipiChef
     function deposit(uint256 _amount) public {
         PoolInfo storage pool = poolInfo[0];
         UserInfo storage user = userInfo[msg.sender];
@@ -155,7 +152,7 @@ contract PipiChef is Ownable {
         emit Deposit(msg.sender, _amount);
     }
 
-    // Withdraw SYRUP tokens from STAKING.
+    // Withdraw xPIPI tokens from STAKING.
     function withdraw(uint256 _amount) public {
         PoolInfo storage pool = poolInfo[0];
         UserInfo storage user = userInfo[msg.sender];
